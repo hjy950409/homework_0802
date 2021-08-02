@@ -23,7 +23,6 @@ gsap.to(".box-1", {
     duration:1,
     scrollTrigger:{
       trigger:'.box-3',
-      markers:true,
       start:'-30%, 87%'
     }
   });
