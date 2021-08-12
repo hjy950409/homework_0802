@@ -59,3 +59,6 @@ gsap.to(".box-1", {
     }
   });
   
+  $('body').imagesLoaded(function() {
+    Sections__init();
+  });
